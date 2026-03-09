@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ejercicio2,11": {
+      "commandName": "Project"
+    },
+    "Perfil 1": {
+      "commandName": "Executable"
+    }
+  }
+}
