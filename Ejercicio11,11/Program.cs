@@ -1,0 +1,14 @@
+﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Ingrese primer numero:_");
+int a = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Ingrese segundo numero:_ ");
+int b = int.Parse(Console.ReadLine());
+
+int resultado= Sumar (a,b);
+  Console.WriteLine("La suma de ambos es:_ " + resultado);
+static int Sumar(int a, int b)
+{
+    return a + b;
+}
+
