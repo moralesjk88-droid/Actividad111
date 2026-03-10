@@ -4,7 +4,7 @@ int nunero= int.Parse(Console.ReadLine());
 
 bool resultado = EsPar(nunero);
 
-Console.WriteLine("El resultado es:_ " + resultado);
+Console.WriteLine("¿El númro es par?:_ " + resultado);
 static bool EsPar(int a)
 {
     return a % 2 == 0;
